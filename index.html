@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTISTIQ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        html {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+
+     
+
+        
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1e1e1e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        
+
+        .coming-soon-container h1 {
+            font-family: 'Work Sans', serif;
+            font-size: 4em !important;
+            letter-spacing: 5px;
+            font-weight: 100;
+            margin-bottom: 20px;
+            color: rgba(170,194,161,0.8);
+        }
+
+
+        
+           .coming-soon-container p {
+            font-size: 1.2em !important;
+            color: rgba(239, 239, 240, 0.7);
+            letter-spacing: 2px;
+            font-style: italic;
+            font-family: 'Work Sans', serif;
+            font-weight: 200;
+        }
+
+        .coming-soon-container a {
+            font-family: 'Work Sans', serif;
+            text-decoration: none;
+            font-weight: 200;
+                        letter-spacing: 2px;
+            color: rgba(70, 130, 180, 0.8);
+            transition: color 0.3s ease;
+            font-size: 1.2em !important;
+        }
+
+        .coming-soon-container a:hover {
+            color: rgba(173, 216, 230, 0.8);
+            font-size: 1.2em !important;
+                        letter-spacing: 2px;
+        }
+
+
+        
+        .coming-soon-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Album cover container with flexbox */
+        .album-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Spacing between the images */
+        }
+
+        .album-row img {
+            width: 200px;
+            height: 200px;
+            filter: brightness(0.8);
+            border-radius: 10px;
+        }
+
+     
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .coming-soon-container {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @media (max-width: 768px) {
+            .coming-soon-container h1 {
+                font-size: 1.5em;
+            }
+
+            .coming-soon-container p {
+                font-size: 0.6em;
+            }
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <!-- Centered Coming Soon Content -->
+    <div class="coming-soon-container">
+        <h1>ARTISTIQ</h1>
+<br><br><br><br>
+        <p>professional creative contract analysis</p>
+    </div>
+
+</body>
+</html>
